@@ -1,6 +1,6 @@
 on: [push, workflow_dispatch]
 
-jobs: hello_world:
+jobs: hello_world
     runs-on: ubuntu-latest
     name: say hello
     steps:
